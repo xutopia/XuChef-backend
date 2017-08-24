@@ -1,0 +1,36 @@
+{
+    "name": "xuchef-backend",
+    "version": "1.0.0",
+    "description": "Fulfillments for the XuChef app",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/xutopia/XuChef-backend.git"
+    },
+    "keywords": [
+        "fulfillments",
+        "google",
+        "assistant",
+        "app"
+    ],
+    "author": "Tony Xu",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/xutopia/XuChef-backend/issues"
+    },
+    "homepage": "https://github.com/xutopia/XuChef-backend#readme",
+    "eslintConfig": {
+        "env": {
+            "browser": true,
+            "node": true
+        }
+    },
+    "devDependencies": {
+        "eslint-config-airbnb": "^15.1.0",
+        "eslint-plugin-import": "^2.7.0",
+        "eslint-plugin-jsx-a11y": "^5.1.1"
+    }
+}
